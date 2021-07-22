@@ -1,0 +1,37 @@
+.ava {
+  height: 25%;
+  width: 25%;
+}
+
+.align-center {
+  display: block;
+  padding: 0 25% 0 25%;
+  word-wrap: break-word;
+  font-family: Helvetica, sans-serif;
+}
+
+code {
+  display: block;
+  padding: 1em 1em;
+  border: 1px solid #dcdcdc;
+  font-family: monospace;
+  font-size: 20px;
+  background: #f5f5f5;
+}
+
+#git-logo {
+  max-width: 5%;
+}
+
+#rs-logo {
+  max-width: 12%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.year-center {
+  text-align: center;
+  font-weight: bold;
+}
