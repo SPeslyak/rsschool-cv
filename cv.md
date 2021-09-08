@@ -2,7 +2,7 @@
 
 ## Contacts
 
-* E-mail: peslyak.sergey@gmal.com
+* E-mail: [peslyak.sergey@gmal.com](mailto:peslyak.sergey@gmal.com)
 * GitHub: [SPeslyak](https://github.com/SPeslyak)
 * Discord: SPeslyak#3358
 * Telegram: [SPeslyak](https://t.me/speslyak)
@@ -23,19 +23,18 @@ My goal is to gain knowledge in the field of front-end development. Passed the R
 
 ## Code section
 
-```Decimal to binary converter
-JavaScript:
+```
 function decToBin(d) {
-  let number = d;
-  let result = '';
-  if (number !== 0) {
-    while(number >= 1 ){
-      result += (Math.floor(number % 2));
-      number = number / 2;
-    }
-    return result.split('').reverse().join('');    
-  } else return '0';
-}
+    let number = d;
+    let result = '';
+    if (number !== 0) {
+        while(number >= 1 ){
+            result += (Math.floor(number % 2));
+            number = number / 2;
+        }
+        return result.split('').reverse().join('');    
+    } else return '0';
+};
 ```
 
 ## Experience
