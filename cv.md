@@ -1,26 +1,53 @@
 # Peslyak Sergey
 
-**E-mail: peslyak.sergey@gmal.com**
+## Contacts
+
+* E-mail: [peslyak.sergey@gmal.com](mailto:peslyak.sergey@gmal.com)
+* GitHub: [SPeslyak](https://github.com/SPeslyak)
+* Discord: SPeslyak#3358
+* Telegram: [SPeslyak](https://t.me/speslyak)
 
 ## About me
 
-Some text about myself...
+My goal is to gain knowledge in the field of front-end development. Passed the RS Schools course “JavaScript / Front-end. Stage 0 ". I am currently taking a "JavaScript / Front-end" course.
 
 ## Skills
 
-- Markdown
-- Git
+* HTML
+* CSS
+* Java Script
+* Markdown
+* Git
+* Figma
+* VS Code
 
 ## Code section
 
-`Console.WriteLine("Hello, World!");`
+```
+function decToBin(d) {
+    let number = d;
+    let result = '';
+    if (number !== 0) {
+        while(number >= 1 ){
+            result += (Math.floor(number % 2));
+            number = number / 2;
+        }
+        return result.split('').reverse().join('');    
+    } else return '0';
+};
+```
 
 ## Experience
 
-I have a lot of experience in IT...
+Gained invaluable experience while completing the course at [RS School](https://rs.school/).
 
 ## Education
 
-_Francisk Skorina Gomel State University_
+* University: _Francisk Skorina Gomel State University (2009 - 2014)_
+* Course: _The Rolling Scopes School (JS / FRONT-END. STAGE 0 - 2021)_
 
-## English level: B1
+## Languages
+
+* English (B1)
+* Russian
+* Belarusian
