@@ -1,6 +1,6 @@
 .ava {
-  height: 25%;
-  width: 25%;
+  height: 256px;
+  width: 195px;
 }
 
 .align-center {
@@ -20,11 +20,13 @@ code {
 }
 
 #git-logo {
-  max-width: 5%;
+  height: 40px;
+  width: 40px;
 }
 
 #rs-logo {
-  max-width: 12%;
+  height: 56px;
+  width: 56px;
 }
 
 a {

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,53 +8,93 @@
     <link rel="stylesheet" href="style.css" />
     <title>My Html CV</title>
 </head>
+
 <body>
     <article class="align-center">
         <header>
             <h1>Peslyak Sergey</h1>
             <img class="ava" src="ava_rick.png" alt="avatar" />
+        </header>
+        <hr>
+        <section>
+            <h2>Contacts</h2>
             <address>
                 <ul>
-                    <li>E-mail:<a href="mailto:peslyak.sergey@gmal.com"> peslyak.sergey@gmal.com </a></li>
-                    <li>Phone: 888-88-88</li>
+                    <li>E-mail:<a href="mailto:peslyak.sergey@gmal.com">peslyak.sergey@gmal.com</a></li>
+                    <li>Discord: SPeslyak#3358</li>
+                    <li>GitHub:<a href="https://github.com/SPeslyak">SPeslyak</a></li>
+                    <li>Telegram:<a href="https://t.me/speslyak">SPeslyak</a></li>
                 </ul>
             </address>
-        </header>
+        </section>
         <section>
             <h2>About me</h2>
-            Some text about myself…
+            My goal is to gain knowledge in the field of front-end development. Passed the RS Schools course “JavaScript
+            / Front-end. Stage 0 ". I am currently taking a "JavaScript / Front-end" course.
         </section>
         <section>
             <h2>Skills</h2>
             <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Java Script</li>
                 <li>Markdown</li>
                 <li>Git</li>
+                <li>Figma</li>
+                <li>VS Code</li>
             </ul>
         </section>
         <section>
             <h2>Code section</h2>
             <code>
-                Console.WriteLine("Hello, World!");
+                function decToBin(d) {<br>
+                &nbsp let number = d;<br>
+                &nbsp let result = '';<br>
+                &nbsp if (number !== 0) {<br>
+                &nbsp &nbsp while(number >= 1 ){<br>
+                &nbsp &nbsp &nbsp result += (Math.floor(number % 2));<br>
+                &nbsp &nbsp &nbsp number = number / 2;<br>
+                &nbsp &nbsp }<br>
+                &nbsp &nbsp return result.split('').reverse().join('');<br>
+                &nbsp } else return '0';<br>
+                };<br>
             </code>
         </section>
         <section>
             <h2>Experience</h2>
-            I have a lot of experience in IT…
+            Gained invaluable experience while completing the course at <a href="https://rs.school/">RS School</a>.
         </section>
         <section>
             <h2>Education</h2>
-            <div style="font-style: italic;">Francisk Skorina Gomel State University</div>
+            <ul>
+                <li style="font-style: italic;">University: Francisk Skorina Gomel State University (2009 - 2014)</li>
+                <li>Courses:</li>
+                <ul style="font-style: italic;">
+                    <li style="font-style: italic;">The Rolling Scopes School (JS / FRONT-END. STAGE 0 - 2021)</li>
+                    <li style="font-style: italic;">ru.code-basics.com</li>
+                    <ul>
+                        <li><a href="https://ru.code-basics.com/languages/html">HTML</a></li>
+                        <li><a href="https://ru.code-basics.com/languages/css">CSS</a></li>
+                        <li><a href="https://ru.code-basics.com/languages/javascript">Java Script</a></li>
+                    </ul>
+                </ul>
+            </ul>
         </section>
         <section>
-            <h2>English level: B1</h2>
-            <hr>
+            <h2>Languages</h2>
+            <ul>
+                <li>English (B1)</li>
+                <li>Russian</li>
+                <li>Belarusian</li>
+            </ul>
         </section>
+        <hr>
         <footer>
             <a href="https://github.com/SPeslyak">
-                <img id="git-logo" src="github.png" alt="my git link"/>
+                <img id="git-logo" src="github.png" alt="my git link" />
             </a>
             <a href="https://rs.school/js/">
-                <img id="rs-logo" src="https://rs.school/images/rs_school_js.svg" alt="Rolling Scopes School"/>
+                <img id="rs-logo" src="https://rs.school/images/rs_school_js.svg" alt="Rolling Scopes School" />
             </a>
             <div class="year-center">
                 <time>2021</time>
@@ -61,4 +102,5 @@
         </footer>
     </article>
 </body>
+
 </html>
