@@ -5,104 +5,164 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
     <link rel="stylesheet" href="style.css" />
-    <title>My Html CV</title>
 </head>
 
 <body>
-    <article class="align-center">
+    <div class="container">
+
         <header>
-            <h1>Peslyak Sergey</h1>
-            <img class="ava" src="ava_rick.png" alt="avatar" />
+            <ul class="header-menu">
+                <li><a href="#Contacts">Contacts</a></li>
+                <li><a href="#About_me">About me</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Code">Code</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Languages">Languages</a></li>
+            </ul>
         </header>
+
         <hr>
-        <section>
-            <h2>Contacts</h2>
-            <address>
-                <ul>
-                    <li>E-mail:<a href="mailto:peslyak.sergey@gmal.com">peslyak.sergey@gmal.com</a></li>
-                    <li>Discord: SPeslyak#3358</li>
-                    <li>GitHub:<a href="https://github.com/SPeslyak">SPeslyak</a></li>
-                    <li>Telegram:<a href="https://t.me/speslyak">SPeslyak</a></li>
-                </ul>
-            </address>
-        </section>
-        <section>
-            <h2>About me</h2>
-            My goal is to gain knowledge in the field of front-end development. Passed the RS Schools course “JavaScript
-            / Front-end. Stage 0 ". I am currently taking a "JavaScript / Front-end" course.
-        </section>
-        <section>
-            <h2>Skills</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Java Script</li>
-                <li>Markdown</li>
-                <li>Git</li>
-                <li>Figma</li>
-                <li>VS Code</li>
-            </ul>
-        </section>
-        <section>
-            <h2>Code section</h2>
-            <code>
-                function decToBin(d) {<br>
-                &nbsp; let number = d;<br>
-                &nbsp; let result = '';<br>
-                &nbsp; if (number !== 0) {<br>
-                &nbsp; &nbsp; while(number >= 1 ){<br>
-                &nbsp; &nbsp; &nbsp; result += (Math.floor(number % 2));<br>
-                &nbsp; &nbsp; &nbsp; number = number / 2;<br>
-                &nbsp; &nbsp; }<br>
-                &nbsp; &nbsp; return result.split('').reverse().join('');<br>
-                &nbsp; } else return '0';<br>
-                };<br>
-            </code>
-        </section>
-        <section>
-            <h2>Experience</h2>
-            Gained invaluable experience while completing the course at <a href="https://rs.school/">RS School</a>.
-        </section>
-        <section>
-            <h2>Education</h2>
-            <ul>
-                <li style="font-style: italic;">University: Francisk Skorina Gomel State University (2009 - 2014)</li>
-                <li>Courses:
-                    <ul style="font-style: italic;">
-                        <li style="font-style: italic;">The Rolling Scopes School (JS / FRONT-END. STAGE 0 - 2021)</li>
-                        <li style="font-style: italic;">ru.code-basics.com
-                            <ul>
-                                <li><a href="https://ru.code-basics.com/languages/html">HTML</a></li>
-                                <li><a href="https://ru.code-basics.com/languages/css">CSS</a></li>
-                                <li><a href="https://ru.code-basics.com/languages/javascript">Java Script</a></li>
-                            </ul>
-                        </li>
+
+        <main>
+            <section class="section">
+                <h1 class="text-center">Peslyak Sergey</h1>
+                <img class="ava" src="./assets/img/avatar.png" alt="avatar" />
+            </section>
+            <hr>
+            <section id="Contacts" class="section contacts">
+                <h2 class="text-center">Contacts</h2>
+                <address>
+                    <ul>
+                        <li>E-mail:<a href="mailto:peslyak.sergey@gmal.com">peslyak.sergey@gmal.com</a></li>
+                        <li>Discord: SPeslyak#3358</li>
+                        <li>GitHub:<a href="https://github.com/SPeslyak">SPeslyak</a></li>
+                        <li>Telegram:<a href="https://t.me/speslyak">SPeslyak</a></li>
                     </ul>
-                </li>
-            </ul>
-        </section>
-        <section>
-            <h2>Languages</h2>
-            <ul>
-                <li>English (B1)</li>
-                <li>Russian</li>
-                <li>Belarusian</li>
-            </ul>
-        </section>
+                </address>
+            </section>
+            <section id="About_me" class="section about_me">
+                <h2 class="text-center">About me</h2>
+                <p>My goal is to gain knowledge in the field of front-end development. Passed the RS Schools course
+                    “JavaScript
+                    / Front-end. Stage 0 ". I am currently taking a "JavaScript / Front-end" course.</p>
+            </section>
+            <section id="Skills" class="section skills">
+                <h2 class="text-center">Skills</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                    <li>Markdown</li>
+                    <li>Git</li>
+                    <li>Figma</li>
+                    <li>VS Code</li>
+                </ul>
+            </section>
+            <section id="Code" class="section code">
+                <h2 class="text-center">Code section</h2>
+                <pre>
+                    <code class="js">
+    function decToBin(d) {<br>
+    &nbsp; let number = d;<br>
+    &nbsp; let result = '';<br>
+    &nbsp; if (number !== 0) {<br>
+    &nbsp; &nbsp; while(number >= 1 ){<br>
+    &nbsp; &nbsp; &nbsp; result += (Math.floor(number % 2));<br>
+    &nbsp; &nbsp; &nbsp; number = number / 2;<br>
+    &nbsp; &nbsp; }<br>
+    &nbsp; &nbsp; return result.split('').reverse().join('');<br>
+    &nbsp; } else return '0';<br>
+    };<br>
+                    </code>
+                </pre>
+                <div class="projects-container">
+                    <div class="project">
+                        <a href="https://rolling-scopes-school.github.io/speslyak-JSFEPRESCHOOL/museum/"
+                            target="_blank">
+                            <figure>
+                                <img src="./assets/img/museum.png" class="card-img-top" alt="museum">
+                                <figcaption>Museum</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://rolling-scopes-school.github.io/speslyak-JSFEPRESCHOOL/vertical-slider/"
+                            target="_blank">
+                            <figure>
+                                <img src="./assets/img/vs.png" class="card-img-top" alt="vertical-slider">
+                                <figcaption>Vertical-Slider</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div class="project">
+                        <a href="https://rolling-scopes-school.github.io/speslyak-JSFEPRESCHOOL/custom-video-player/"
+                            target="_blank">
+                            <figure>
+                                <img src="./assets/img/cvp.png" class="card-img-top" alt="custom-video-player">
+                                <figcaption>Custom Video Player</figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            <section id="Experience" class="section experience">
+                <h2 class="text-center">Experience</h2>
+                Gained invaluable experience while completing the course at <a href="https://rs.school/">RS School</a>.
+            </section>
+            <section id="Education" class="section education">
+                <h2 class="text-center">Education</h2>
+                <ul>
+                    <li style="font-style: italic;">University: Francisk Skorina Gomel State University (2009 - 2014)
+                    </li>
+                    <li>Courses:
+                        <ul style="font-style: italic;">
+                            <li style="font-style: italic;">The Rolling Scopes School (JS / FRONT-END. STAGE 0 - 2021)
+                            </li>
+                            <li style="font-style: italic;">ru.code-basics.com
+                                <ul>
+                                    <li><a href="https://ru.code-basics.com/languages/html">HTML</a></li>
+                                    <li><a href="https://ru.code-basics.com/languages/css">CSS</a></li>
+                                    <li><a href="https://ru.code-basics.com/languages/javascript">Java Script</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section id="Languages" class="section languages">
+                <h2 class="text-center">Languages</h2>
+                <ul>
+                    <li>English (B1)</li>
+                    <li>Russian</li>
+                    <li>Belarusian</li>
+                </ul>
+            </section>
+        </main>
+
         <hr>
+
         <footer>
             <a href="https://github.com/SPeslyak">
-                <img id="git-logo" src="github.png" alt="my git link" />
+                <img class="git-logo" src="./assets/img/github.png" alt="my git link" />
             </a>
             <a href="https://rs.school/js/">
-                <img id="rs-logo" src="https://rs.school/images/rs_school_js.svg" alt="Rolling Scopes School" />
+                <img class="rs-logo" src="./assets/svg/rs_school.svg" alt="Rolling Scopes School" />
             </a>
             <div class="year-center">
                 <time>2021</time>
             </div>
         </footer>
-    </article>
+
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script src="./script.js"></script>
 </body>
 
 </html>
