@@ -1,9 +1,13 @@
-.ava {
-  height: 25%;
-  width: 25%;
+html {
+  scroll-behavior: smooth;
 }
 
-.align-center {
+P { 
+  text-indent: 1.5em;
+  text-align: justify;
+ }
+
+.container {
   display: block;
   padding: 0 25% 0 25%;
   word-wrap: break-word;
@@ -12,26 +16,60 @@
 
 code {
   display: block;
-  padding: 1em 1em;
-  border: 1px solid #dcdcdc;
+  border: 1px solid #000;
   font-family: monospace;
-  font-size: 20px;
-  background: #f5f5f5;
+  border-radius: 10px;
+  font-size: 15px;
 }
 
-#git-logo {
-  max-width: 5%;
+.header-menu {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
 }
 
-#rs-logo {
-  max-width: 12%;
+.header-menu > li {
+  list-style-type: none;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.project img {
+  max-width: 301px;
+  max-height: 181px;
+}
+
+.ava {
+  height: 256px;
+  width: 195px;
+}
+
+.git-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.rs-logo {
+  height: 56px;
+  width: 56px;
 }
 
 a {
   text-decoration: none;
+  color: #e0a80d;
 }
 
 .year-center {
   text-align: center;
   font-weight: bold;
+}
+
+.text-center{
+  text-align: center;
 }
