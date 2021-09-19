@@ -44,7 +44,12 @@ Gained invaluable experience while completing the course at [RS School](https://
 ## Education
 
 * University: _Francisk Skorina Gomel State University (2009 - 2014)_
-* Course: _The Rolling Scopes School (JS / FRONT-END. STAGE 0 - 2021)_
+* Courses: 
+  * _The Rolling Scopes School (JS / FRONT-END. STAGE 0 - 2021)_
+  * ru.code-basics.com (2021)
+    * [HTML](https://ru.code-basics.com/languages/html)
+    * [CSS](https://ru.code-basics.com/languages/css)
+    * [Java Script](https://ru.code-basics.com/languages/javascript)
 
 ## Languages
 
